@@ -2,6 +2,7 @@
 Learnings and pointers from SAP Code Challenge Jun2024 - SAP HANA Multimodel
 
 BAS - https://69e91dd6trial.us10cf.trial.applicationstudio.cloud.sap/index.html#ws-5j5mc
+BTP-HANA-COCKPIT - https://69e91dd6trial.hana-tooling.ingress.orchestration.trial-us10.hanacloud.ondemand.com/hcs/sap/hana/cloud/index.html?#/&/databases/instance/3a1937b5-4d91-460b-81ea-727702c8872f/TwoColumnsMidExpanded/?tab=servicesSelection
 
 DBADMIN PASS - VectorHanaCode@JUN2024
 
