@@ -3,6 +3,8 @@ Learnings and pointers from SAP Code Challenge Jun2024 - SAP HANA Multimodel
 
 BAS - https://69e91dd6trial.us10cf.trial.applicationstudio.cloud.sap/index.html#ws-5j5mc
 
+DBADMIN PASS - VectorHanaCode@JUN2024
+
 ### 1.Basic BAS Commands - 
 whoami
 pwd
