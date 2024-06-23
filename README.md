@@ -21,3 +21,13 @@ locale
 ### 2. Install HANA in dev space 
 
 https://github.com/sap-samples/sap-community-developer-challenge-hana-multimodel/blob/main/setup/setup.md#6-install-sap-hana-client-in-the-dev-space
+
+### 3. COnfiguring BAS for HDB
+HDB-ENDPOINT: 3a1937b5-4d91-460b-81ea-727702c8872f.hana.trial-us10.hanacloud.ondemand.com:443
+
+~/sap/hdbclient/hdbuserstore -i SET myDBAdmin ${sap_hana_db_endpoint} DBAdmin:
+~/sap/hdbclient/hdbuserstore -i SET myDBAdmin 3a1937b5-4d91-460b-81ea-727702c8872f.hana.trial-us10.hanacloud.ondemand.com:443 DBAdmin
+~/sap/hdbclient/hdbuserstore -i SET myDevChallenger 3a1937b5-4d91-460b-81ea-727702c8872f.hana.trial-us10.hanacloud.ondemand.com:443 DevChallenger
+DevChallenger-Up2TheChallenge!Iam
+
+~/sap/hdbclient/hdbuserstore LIST
