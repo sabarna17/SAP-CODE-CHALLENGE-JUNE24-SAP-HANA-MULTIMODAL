@@ -21,6 +21,13 @@ locale -a
 export LC_ALL=C.utf8
 locale
 
+Space in BAS - df -h /home/user/
+
+### 1.1 Python Sctipts
+python -m pip install --upgrade --require-virtualenv ipykernel ipython-sql pandas hdbcli sqlalchemy-hana hana_ml
+pip install --require-virtualenv tensorflow-cpu ipywidgets pillow
+
+
 ### 2. Install HANA in dev space 
 
 https://github.com/sap-samples/sap-community-developer-challenge-hana-multimodel/blob/main/setup/setup.md#6-install-sap-hana-client-in-the-dev-space
